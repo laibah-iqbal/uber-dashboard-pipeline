@@ -4,9 +4,11 @@ dbt_project/target
 logs
 pg_data
 pgadmin_data
-terraform
-terraform/
+terraform/setup.sh
 .terraform
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
 dbt_profile
 .env
 
