@@ -1,0 +1,10 @@
+config
+logs
+metabase
+pg_data
+pg_admin
+plugins
+dbt_project/target
+dbt_project/dbt_packages
+dbt_project/logs
+.env
