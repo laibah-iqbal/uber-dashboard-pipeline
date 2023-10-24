@@ -333,6 +333,7 @@ services:
   dashboard:
     image: metabase/metabase
     container_name: dashboard
+    restart: always
     environment:
       MB_DB_FILE: ${MB_DB_FILE}
       MB_DB_TYPE: 'postgres'

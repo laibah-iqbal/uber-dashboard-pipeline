@@ -5,5 +5,8 @@ logs
 pg_data
 pgadmin_data
 terraform
-terrafrom/
+terraform/
 .terraform
+dbt_profile
+.env
+
