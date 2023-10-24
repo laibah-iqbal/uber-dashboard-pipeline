@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: uber
+    database: postgres
+    schema: uber
+    tables:
+      - name: rides
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
+
+      

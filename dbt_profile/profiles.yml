@@ -1,0 +1,13 @@
+dbt_project:
+  outputs:
+
+    dev:
+      type: postgres
+      host: warehouse
+      port: 5432
+      user: postgres
+      pass: wantacat692000
+      dbname: postgres
+      schema: uber
+
+  target: dev
