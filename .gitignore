@@ -4,3 +4,4 @@ dbt_project/target
 logs
 pg_data
 pgadmin_data
+terraform
