@@ -1,7 +1,7 @@
 # ETL pipeline for Uber Dashboard
 An ETL pipeline that extracts Uber rides data from an API, stores it, transforms and ultimately makes it available to a Metabase dashboard for visualization.
 
-[Dashboard Link](http://34.28.29.110:3000/public/dashboard/68038014-e396-4aea-8159-4e81d1c80610)
+[Dashboard Link](http://34.132.138.240:3000/public/dashboard/68038014-e396-4aea-8159-4e81d1c80610)
 
 ### Motivation: ###
 My motivation was to have a more hands-on learning experience with some of the common tools used in modern data stacks. Although the pipeline and data modelling is simple, I learned a lot which will be foundational to any future projects.  
