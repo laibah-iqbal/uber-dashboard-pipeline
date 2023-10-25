@@ -12,6 +12,12 @@ My motivation was to have a more hands-on learning experience with some of the c
 - **dbt** was used to run basic tests on the raw data and then transform it into a star schema.
 - **PostgreSQL** was used as the data warehouse.
 - **Metabase** I chose it as the visualization layer due to how easy it is to connect to the database and create a dashboard for sharing.
+- **Docker** All tools were running as services on their own Docker containers. Docker compose makes it very convenient to tear down and restart the pipeline and for services to communicate over the network.
+- **Terraform** was used to conveniently start a GCP VM. I chose the type of GCP instance by experimenting with required disk space and RAM.
+
+### Future Work: ###
+1. I didn't employ CI/CD practices in this project. If I revisit this project, I'll use Github Actions.
+2. Testing was only done at the start of the pipeline. I didn't conduct any data quality checks at the end before visualizing.
 
 
 
