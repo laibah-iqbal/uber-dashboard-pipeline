@@ -5,5 +5,5 @@ My motivation was to have a more hands-on learning experience with some of the c
 
 ### Architecture & Dashboard: ###
 
-![image](https://github.com/laibah-iqbal/uber-dashboard-pipeline/assets/67593507/10262258-ae0d-4bb4-83c7-46867d658b81)
+![image](https://github.com/laibah-iqbal/uber-dashboard-pipeline/assets/67593507/ed7ef6f0-1a36-4a60-a935-f2df2484122a)
 
