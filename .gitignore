@@ -10,5 +10,5 @@ terraform/setup.sh
 terraform.tfstate
 terraform.tfstate.backup
 dbt_profile
-.env
 key.json
+.env
