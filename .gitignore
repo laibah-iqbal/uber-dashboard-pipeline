@@ -9,5 +9,6 @@ terraform/setup.sh
 .terraform.lock.hcl
 terraform.tfstate
 terraform.tfstate.backup
-metabase
+dbt_profile
+.env
 key.json
