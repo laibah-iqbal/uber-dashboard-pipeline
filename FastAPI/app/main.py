@@ -31,5 +31,5 @@ def synthesize_record():
     #         'passenger_count','pickup lat long','dropoff lat long']]
     df["key"] = datetime.now()
     df["created_at"] = datetime.now()
-    df["pickup_dateimt"] = datetime.now()
+    df["pickup_datetime"] = datetime.now()
     return Response(df.to_json(orient="records", date_format="iso")[1:-1], media_type="application/json")
