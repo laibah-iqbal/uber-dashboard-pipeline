@@ -7,12 +7,15 @@ import requests
 import json
 from ulid import ULID
 
+# This function requests data from the API and sends it to an xcom
+# for the postgres task to read from
 def _extract(ti):
     url = "http://fastapi:80/synthesize"
     response = requests.get(url)
     data = response.json()
     ti.xcom_push(key="api_data", value=data)
 
+# This function generates a unique primary key for each row
 def get_primary_key(ti):
     ulid = str(ULID().to_uuid())
     ti.xcom_push(key="primary_key", value=ulid)
@@ -34,6 +37,7 @@ with DAG(
         python_callable=get_primary_key
     )
 
+    # This task inserts a row into the postgres database
     insert_ride = PostgresOperator(
         task_id="insert_ride",
         postgres_conn_id="pg_conn",
