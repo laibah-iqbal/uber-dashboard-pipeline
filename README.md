@@ -2,7 +2,7 @@
 An ETL pipeline that extracts Uber rides data from an API, stores it, transforms and ultimately makes it available to a Metabase dashboard for visualization.
 ![image](https://github.com/laibah-iqbal/uber-dashboard-pipeline/assets/67593507/6aaf2f2a-8a7d-4c51-aad9-bb93d217f06c)
 
-[Dashboard Link][(http://34.132.138.240:3000/public/dashboard/542592a5-7bf5-4b18-aee9-8f26bdff73f8)]
+[Dashboard Link][http://34.132.138.240:3000/public/dashboard/542592a5-7bf5-4b18-aee9-8f26bdff73f8]
 
 ### Motivation: ###
 My motivation was to have a more hands-on learning experience with some of the common tools used in modern data stacks. Although the pipeline and data modelling is simple, I learned a lot which will be foundational to any future projects.  
